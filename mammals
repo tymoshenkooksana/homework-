@@ -1,0 +1,35 @@
+/**
+ * Created by Tymoshenko 29.02.2016.
+ */
+public class Mammals {
+    protected String Name;
+    protected String Weight;
+    protected String Ago;
+    protected int CoatColor;
+    protected int PresenceOfClaws;
+
+    public void setName(String Name) {
+        this.Name = Name;
+    }
+
+    public void setweight(String Weight) {
+        this. Weight = Weight;
+    }
+
+    public void setqueen(String Ago) {
+        this. Ago = Ago;
+    }
+
+    public void setadviser(int CoatColor) {
+        this. CoatColor = CoatColor;
+    }
+
+    public void setmaid(int PresenceOfClaws) {
+        this. PresenceOfClaws = PresenceOfClaws;
+    }
+    public String read() {
+        String result = "About Mammals \nName: " + this.Name + "\nWeighr: " + this.Weight + "\nAgo: " + this.Ago + "\nCoatColor: " + this.C + "\n PresenceOfClaws: " + this. PresenceOfClaws;
+        return result;
+    }
+
+}
