@@ -4,6 +4,6 @@ Public class Main {
    exam.setSubject("OOP"); 
    exam.setMark(5); 
 
-System.out.println(exam.to string()); 
+System.out.println(exam.read()); 
   } 
 }
