@@ -1,0 +1,9 @@
+Public class Main { 
+    public static void main(String[] args) { 
+    Exam exam = new Exam(); 
+   exam.setSubject("OOP"); 
+   exam.setMark(5); 
+
+System.out.println(exam.to string()); 
+  } 
+}
