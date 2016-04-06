@@ -1,0 +1,32 @@
+publis class Student {
+    protected String Name;
+    protected String Surname;
+    protected String Group;
+    protected int Average;
+    
+    protected Exam[] examsArray;
+    protected int number;
+    
+    public Student() {
+      this.examsArray = new Exams[5];
+      this.number = 0
+    }
+    public void setName(String Name){ 
+      this.Name = Name; 
+} 
+    public void setSurname(String Surname){ 
+       this.Surname = Surname;
+}
+    public void setGroup(String group) { 
+       this.group = group; 
+} 
+    public void addExam(Exam worker) { 
+       this.examsArray[this.number] = Exam; 
+       this.number++; 
+} 
+    public String toString () { 
+   String result = ""
+   
+   
+} 
+}
