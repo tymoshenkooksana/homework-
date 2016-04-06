@@ -1,0 +1,22 @@
+public class Exam {
+    protected String Student;
+    protected String Subject; 
+    protected int Mark; 
+    
+    public void setSubject(String Student) { 
+       this.Student = Student;
+
+    public void setSubject(String Subject) { 
+       this.Subject = Subject; 
+    } 
+
+    public void setMark(int Mark) { 
+       this.Mark = Mark; 
+    }
+    public String read() {
+       String results = "About Exam \nStudent: " + this.Student + "\nSubject: " + this.Subject + "\nMark:  + this.Mark;
+       return result;
+       
+    }
+    
+}    
